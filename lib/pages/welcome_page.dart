@@ -28,7 +28,8 @@ class _WelcomePageState extends State<WelcomePage> {
                 height: double.maxFinite,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage("img/" + images[index])),
+                      image: AssetImage("img/" + images[index]),
+                      fit: BoxFit.cover),
                 ),
               );
             }));
